@@ -14,7 +14,7 @@
                 <label for="name">Név:</label>
                 <input type="text" name="name" id="name" placeholder="Írja be a nevét." required>
             </div>
-        
+
             <div class="adress_container">
                 <label for="address">Cím:</label>
                 <input type="text" name="address" id="address" placeholder="Írja be a címét." required>
@@ -24,17 +24,57 @@
                 <label for="phone">Telefonszám:</label>
                 <input type="tel" name="phone" id="phone" placeholder="PL.: +888 888 IEN-IEN" required>
             </div>
-    
+
             <div class="birthdate_container">
                 <label for="date">Születési Dátum:</label>
                 <input type="date" name="date" id="date" required>
             </div>
 
-        </div>
+            </div>
         <div>
             <button type="submit">Elküld</button>
         </div>
+    <div class="second-form-container">
+        <h2>További Adatok:</h2>
+<!-- ↓↓↓//RADIO//↓↓↓ ></!-->
+            <h3>Melyik csoportba tartozik gyakorlaton?</h3>
+            <div class="group">
+                <input type="radio" name="group" id="groupsa" value="groupsa">
+                <label for="groupsa">1-es Csoprt</label>
+            </div>
 
+            <div class="group">
+                <input type="radio" name="group" id="groupsb" value="groupsb">
+                <label for="groupsb">2-es Csoport</label>
+            </div>
+
+            <div class="group">
+                <input type="radio" name="group" id="groupsc" value="groupsc">
+                <label for="groupsc">3-as Csoport</label>
+            </div>
+<!-- ↓↓↓//CHECKBOX//↓↓↓ ></!-->
+            <h3>Melyik tárgy található meg önnek az asztalán ezek közül?<br>Választhat több tárgyat is!</h3>
+            <div class="checkbox">
+                <input type="checkbox" name="check" id="checka/blcm" value="checka">
+                <label for="checka/blcm">Fekete Bögre</label>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" name="check" id="checkb/witb" value="checkb">
+                <label for="checkb/witm">Fehér Bögre</label>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" name="check" id="checkc/redm" value="checkc">
+                <label for="checkc/redm">Vörös Bögre</label>
+            </div>
+
+            <div class="checkbox">
+            <input type="checkbox" name="check" id="checkd/blum" value="checkd">
+            <label for="checkd/blum">Kék Bögre</label>
+            </div>
+
+    </div>
    </form> 
 </body>
 </html>
