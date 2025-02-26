@@ -2,8 +2,9 @@
     margin-left: 25px;
     padding: 20px;
     border-radius: 25px;
-    width: 250px;
-    box-shadow: 0 0 10px rgba(183, 0, 255, 0.795);
+    width: 300px;
+    height: 600px;
+    box-shadow: 0 0 10px rgba(16, 0, 8, 0.795);
 }
 
 .first-column-container label {
@@ -14,7 +15,7 @@
 
 .first-column-container input {
     padding: 6.5px;
-    border: 1px solid #9a00a8;
+    border: 1px solid #000000;
     border-radius: 5px;
     width: 200px;
 }
@@ -25,22 +26,75 @@
 
 .first-column-container h2 {
     text-align: center;
+    padding: 8px;
 }
 
 /* ↓↓↓//SECOLUM//↓↓↓ */
 
 .second-form-container {
-    margin-left: 25px;
     padding: 20px;
     border-radius: 10px;
-    width: 250px;
-    box-shadow: 0px 0px 10px #9a00a8
+    width: 300px;
+    height: 600px;
+    box-shadow: 0px 0px 10px rgba(16, 0, 8, 0.795)
 }
 
+.second-form-container h2,
+.second-form-container h3 {
+    text-align: center;
+    padding: 8px;
+}
 .second-form-container label {
     font-style: italic;
 }
 
+.second-form-container .group {
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+
+.second-form-container .checkbox {
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+
+
 .second-form-container div {
     margin-bottom: 5px;
+}
+
+/* ↓↓↓//THIRCOLUM//↓↓↓ */
+
+.third-form-container {
+    padding: 20px;
+    border-radius: 25px;
+    width: 300px;
+    height: 600px;
+    box-shadow: 0 0 10px rgba(6, 0, 8, 0.795);
+}
+
+.third-form-container h2,
+.third-form-container h3 {
+    text-align: center;
+    padding: 8px;
+}
+
+/* ↓↓↓//FULLPAGE//↓↓↓ */
+
+.page-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+button {
+    background-color: lightblue;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: blueviolet;
+    color: white;
 }

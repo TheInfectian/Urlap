@@ -8,6 +8,7 @@
 </head>
 <body>
    <form action="">
+    <div class="page-container">
         <div class="first-column-container">
             <h2>Adatok:</h2>
             <div class="name_container">
@@ -31,12 +32,10 @@
             </div>
 
             </div>
-        <div>
-            <button type="submit">Elküld</button>
-        </div>
+       
     <div class="second-form-container">
         <h2>További Adatok:</h2>
-<!-- ↓↓↓//RADIO//↓↓↓ ></!-->
+<!--↓↓↓//RADIO//↓↓↓-->
             <h3>Melyik csoportba tartozik gyakorlaton?</h3>
             <div class="group">
                 <input type="radio" name="group" id="groupsa" value="groupsa">
@@ -52,7 +51,7 @@
                 <input type="radio" name="group" id="groupsc" value="groupsc">
                 <label for="groupsc">3-as Csoport</label>
             </div>
-<!-- ↓↓↓//CHECKBOX//↓↓↓ ></!-->
+<!--↓↓↓//CHECKBOX//↓↓↓-->
             <h3>Melyik tárgy található meg önnek az asztalán ezek közül?<br>Választhat több tárgyat is!</h3>
             <div class="checkbox">
                 <input type="checkbox" name="check" id="checka/blcm" value="checka">
@@ -75,6 +74,24 @@
             </div>
 
     </div>
+    <div class="third-form-container">
+        <h2>Szakirány és vélemény:</h2>
+            <label for="szaki">Válassza ki a szakirányát.</label>
+            <select name="szakirany" id="szaki">
+                <option value="szakielek">Elektrotechnikai</option>
+                <option value="szakiinforma">Informatikus</option>
+                <option value="szakirend">Rendszerfejlesztő</option>
+                <option value="szakikarb">Karbantartó</option>
+        </select>
+<!--↓↓↓//TEXTAREA//↓↓↓-->
+        <h3>Írja be a véleményét!</h3>
+            <div class="opinion-container">
+                <label for="opinion">Vélemény:</label>
+                <textarea name="opinion" id="opitext" rows="10" cols="30"></textarea>
+            </div>
+        </div>
+    </div>
+        <button type="submit">Elküld</button>
    </form> 
 </body>
 </html>
